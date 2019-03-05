@@ -45,22 +45,22 @@
           <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
             <ul class="nav navbar-nav navbar-right">
               <li class="active">
-                <a class="page-scroll" href="index.php">Accueil</a>
+                <a class="page-scroll" href="index.php?page=accueil">Accueil</a>
               </li>
               <li>
-                <a class="page-scroll" href="pages/erwan.php">Erwan</a>
+                <a class="page-scroll" href="index.php?page=erwan">Erwan</a>
               </li>
               <li>
-                <a class="page-scroll" href="pages/kevin.php">Kévin</a>
+                <a class="page-scroll" href="index.php?page=kevin">Kévin</a>
               </li>
               <li>
-                <a class="page-scroll" href="pages/killian.php">Killian</a>
+                <a class="page-scroll" href="index.php?page=killian">Killian</a>
               </li>
               <li>
-                <a class="page-scroll" href="pages/ninon.php">Ninon</a>
+                <a class="page-scroll" href="index.php?page=ninon">Ninon</a>
               </li>
               <li>
-                <a class="page-scroll" href="#contact">Contact</a>
+                <a class="page-scroll" href="index.php?page=contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -69,39 +69,36 @@
         <!-- END: Navigation -->
       </div>
     </div>
-		<div class="row">
-			<div class="col-lg-12">
-				<h1>Portofolio Stagiaire</h1>
-				<p>Erwan, Kévin, Killian & Ninon</p>
-			</div>
-		</div>
-	</div>
 
-<!-- // if(!isset($_GET["page"])){
+  <h1><?php echo ucfirst($_GET["page"]); ?> </h1> 
+
+<?php if(!isset($_GET["page"])){
   $_GET["page"] = "accueil";
  }
 ?>
-
-
-<?php include("menu.php"); ?>
-  <h1><?php echo ucfirst($_GET["page"]); ?> </h1> 
   
   <?php 
   switch($_GET['page']) {
     case "accueil":
-      include('accueil.php');
+      include('pages/accueil.php');
       break;
-    case "portofolio":
-      include ('portofolio.php');
+    case "erwan":
+      include ('pages/erwan.php');
+      break;
+    case "kevin":
+      include('pages/kevin.php');
+      break;
+    case "killian":
+      include('pages/killian.php');
+      break;
+    case "ninon":
+      include('pages/ninon.php');
       break;
     case "contact":
-      include('contact.php');
+      include('pages/contact.php');
       break;
-    case "contact":
-      include('contact.php');
-      break;
-    }
-  ?>// -->
+  }
+  ?>
 
 </body>
 </html>
