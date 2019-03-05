@@ -1,10 +1,6 @@
-	
-
 	<div class="backgroundkillian">
-		<h1 class="bannerkillian">Bienvenue chez Killian | Front-end de père en fils.</h1>
-		<h2 class="bannerkillian">Presentation des projets réalisé au cours de la formation au sein de Groupes Sentinelles.</h2>
+	<img src="images/killianbanner.png" class="bannerkillian">
 	</div>
-
 	<div class="container">
 		<header class="row entetependu">
 			<div class="col-lg-12"> 
@@ -71,5 +67,6 @@
 
 		</div>
 	</div>
+
 
  

@@ -1,7 +1,8 @@
 
-	<h1> Cours et Devoirs </h1>
 
-	<h2> Nos projets </h2>
+<div>
+	<h1 class=grostitreninon><div class="nomninon"> Ninon </div> </br> Cours et Devoirs </h1>
+	<h2 class=titresninon> Nos projets </h2>
 		<div class=cours><p> Au sein de cette première partie de formation, nous avons déjà accompli une bonne quantité de travail et acquis de nombreuses connaissances. Nous avons étudié :</p>
 			<ul>
 				<li>L'algorithmique </li>
@@ -14,16 +15,16 @@
 		</div>
 
 		<div class=presentations><p> J'ai réalisé une présentation présentant les <em>Structures d'un document html</em>. En voici l'index :</p>
-			<ul>
+			<ul class=listesninon>
 				<li> I- Présentation du langage HTML </li>
 				<li> II- Les balises 
-					<ul>
+					<ul class=listesninon>
 						<li>a) balises courantes de contenu</li>
 						<li>b) balises courantes de structure</li>
 					</ul>
 				</li>
 				<li> III- La structure de la page 
-					<ul>
+					<ul class=listesninon>
 						<li>a) le doctype</li>
 						<li>b) la balise head</li>
 						<li>c) le body </li>
@@ -35,6 +36,7 @@
 		Ces présentations nous ont permis de restituer et synthétiser nos connaissances sur le sujet. </p>
 		</div>
 
-	<h2> Ninon <h2>
-		<p> 
-	<h2> Ce que m'apporte Sentinelles Technologies <h2>
+	<h2 class=titresninon> Qui je suis : </h2>
+	<img class=nuage src="images/nuageninon.png" alt="nuage de mots"/>
+	<h2 class=titresninon> Ce que m'apporte Sentinelles Technologies </h2>
+</div>
