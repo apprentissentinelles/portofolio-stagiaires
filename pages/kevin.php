@@ -131,7 +131,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- JS pour l'application -->
-    <script type="text/javascript" src="js/app-corrigé.js"></script>
+    <script type="text/javascript" src="js/app-piano.js"></script>
 
 
 

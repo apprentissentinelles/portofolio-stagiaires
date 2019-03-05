@@ -336,7 +336,7 @@
   border-right: 10px double #ff6550;
   border-bottom: 10px double #ff6550;
   border-left: 10px double #2f1df0;
-  border-style: dotted;
+  border-style: inset;
 }
 
 #tool-box {
