@@ -468,3 +468,7 @@
   width: 100%;
   height: 250px;
 }
+
+.separateurkev{
+  border:5px double red;
+}

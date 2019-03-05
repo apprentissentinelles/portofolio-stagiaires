@@ -24,6 +24,7 @@
 	<div class="titre">
 		<h1> Portofolio de Kevin </h1>
 	</div>
+  <hr class="separateurkev"></hr>
 <div class="container">
     <header>
       <div class="col-lg-12"> 
@@ -125,6 +126,14 @@
     </div>
   
 </div>
+
+
+<hr class="separateurkev"></hr>
+
+
+<titre> <h1> Diaporama </h1> </titre>
+
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap -->
