@@ -1,5 +1,5 @@
 
-	<link href="../css/style.css" rel="stylesheet">
+	
 	<h1 class=grostitreninon><div class="nomninon"> Ninon </div> </br> Cours et Devoirs </h1>
 
 	<h2 class=titresninon> Nos projets </h2>
