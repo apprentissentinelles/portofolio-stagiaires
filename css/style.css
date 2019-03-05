@@ -223,10 +223,72 @@
 }
 
 .backgroundkillian {
-  background-image: url("../images/killianbanner.png");
+  background-image: url("../images/killianbanner.jpg");
   color : white;
   margin: 0 -500px;
   height: 350px;
+}
+
+
+.entetependu {
+  text-align: center;
+  margin: 18px auto;
+}
+
+.containerpendu {
+  background-color: #A9A9A9;
+}
+
+.lettre {
+  border: 1px solid #000;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  font-size: 1em;
+  margin: 3px;
+  text-align: center;
+  padding-top: 7px;
+  cursor: pointer;
+}
+
+.lettre:nth-child(odd) {
+  background-color: white;
+}
+
+.lettre:nth-child(even) {
+  background-color: #ccc;
+}
+
+.ok {
+  background-color: #039111 !important;
+  color: #fff;
+}
+
+.ko {
+  background-color: #973132 !important;
+  color: #fff;
+}
+
+#mot_cache {
+  font-size: 5em;
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#nb_essais {
+  border: 2px solid #000;
+  font-size: 3em;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 60px auto;
+  padding-top: 16px;
+  background-color: #fff;
+}
+
+.progress {
+  margin-top: 100px;
 }
 
 /*--------------------------------*/
@@ -274,7 +336,7 @@
   border-right: 10px double #ff6550;
   border-bottom: 10px double #ff6550;
   border-left: 10px double #2f1df0;
-  border-style: dotted;
+  border-style: inset;
 }
 
 #tool-box {
