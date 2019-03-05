@@ -1,7 +1,10 @@
-
+<!-- 
 	<link href="../css/style.css" rel="stylesheet">
-	<h1 class=grostitreninon><div class="nomninon"> Ninon </div> </br> Cours et Devoirs </h1>
+	<h1 class=grostitreninon><div class="nomninon"> Ninon </div> </br> Cours et Devoirs </h1> -->
 
+<div class="backgroundninon">
+	<img src="images/ninonbanner.png" class="bannerninon">
+</div>
 	<h2 class=titresninon> Nos projets </h2>
 		<div class=cours><p> Au sein de cette première partie de formation, nous avons déjà accompli une bonne quantité de travail et acquis de nombreuses connaissances. Nous avons étudié :</p>
 			<ul>
@@ -37,5 +40,5 @@
 		</div>
 
 	<h2 class=titresninon> Qui je suis : <h2>
-		<img class=nuage src="../images/nuageninon.png" />
+		<img class=nuage src="images/nuageninon.png" />
 	<h2 class=titresninon> Ce que m'apporte Sentinelles Technologies <h2>

@@ -1,9 +1,12 @@
-<link href="css/bootstrap.min.css" rel="stylesheet" />
+<!-- <link href="css/bootstrap.min.css" rel="stylesheet" />
 <link href="../css/style.css" rel="stylesheet">
 <!--<body>-->
-<div class="banner backgroundG">
+<!-- <div class="banner backgroundG">
 	<h1 class="banner">Erwan GOASDOUE</h1>
 	<h2>Présentation des projets réalisés à Sentinelles Technolohgies </h2>
+</div>  -->
+<div class="backgrounderwan">
+	<img src="images/erwanbanner.png" class="bannererwan">
 </div>
 <section>
 	<div>

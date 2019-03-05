@@ -21,6 +21,9 @@
 </head>
 
 <body class="body-kevin">
+  <div class="backgroundpodeur">
+  <img src="images/podeurbanner.png" class="bannerpodeur">
+  </div>
 	<div class="titre">
 		<h1> Portofolio de Kevin </h1>
 	</div>
