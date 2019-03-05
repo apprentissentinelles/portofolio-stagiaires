@@ -223,16 +223,14 @@
 }
 
 .backgroundkillian {
-  background-image: url("../images/killianbanner.png");
+  background-image: url("../images/killianbanner.jpg");
   color : white;
   margin: 0 -500px;
   height: 350px;
 }
 
-.body {
-  background-color: #A9A9A9;
-}
-.entete {
+
+.entetependu {
   text-align: center;
   margin: 18px auto;
 }
