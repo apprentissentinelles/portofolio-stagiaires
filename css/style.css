@@ -3,6 +3,9 @@
 
 /*  2. Header top Area
 /*--------------------------------*/
+.container {
+  width: 100%;
+}
 
 .header-area {
   position: absolute;
@@ -215,16 +218,17 @@
 
 .bannerkillian {
   display: flex;
-  flex-direction: row wrap;
   align-content: center;
   justify-content: center;
-  margin-left: 35%;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
 }
 
 .backgroundkillian {
    background-color: #050500;
-   margin: 0 -300px;
    height: 200px;
+   width: 100%;
 }
 
 .entetependu {
@@ -295,16 +299,17 @@
 
 .bannerpodeur {
   display: flex;
-  flex-direction: row wrap;
   align-content: center;
   justify-content: center;
-  margin-left: 35%;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
 }
 
 .backgroundpodeur {
    background-color: #050500;
-   margin: 0 -300px;
    height: 200px;
+   width: 100%;
 }
 
 .body-kevin
@@ -462,16 +467,17 @@
 
 .bannererwan {
   display: flex;
-  flex-direction: row wrap;
   align-content: center;
   justify-content: center;
-  margin-left: 35%;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
 }
 
 .backgrounderwan {
    background-color: #050500;
-   margin: 0 -300px;
    height: 200px;
+   width: 100%;
 }
 
 .banner {
@@ -564,16 +570,17 @@
 
 .bannerninon {
   display: flex;
-  flex-direction: row wrap;
   align-content: center;
   justify-content: center;
-  margin-left: 35%;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
 }
 
 .backgroundninon {
    background-color: #050500;
-   margin: 0 -300px;
    height: 200px;
+   width: 100%;
 }
 
 .nuage {

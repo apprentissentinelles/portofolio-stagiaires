@@ -1,6 +1,9 @@
+
+	<!-- Bannière entête -->
 	<div class="backgroundkillian">
-	<img src="images/killianbanner.png" class="bannerkillian">
+		<img src="images/killianbanner.png" class="bannerkillian">
 	</div>
+	<!-- Container pendu -->
 	<div class="container">
 		<header class="row entetependu">
 			<div class="col-lg-12"> 
