@@ -1,7 +1,6 @@
 
-<!-- 
-	<link href="../css/style.css" rel="stylesheet">
-	<h1 class=grostitreninon><div class="nomninon"> Ninon </div> </br> Cours et Devoirs </h1> -->
+<!--<link href="../css/style.css" rel="stylesheet">
+<h1 class=grostitreninon><div class="nomninon"> Ninon </div> </br> Cours et Devoirs </h1> -->
 
 <div class="backgroundninon">
 	<img src="images/ninonbanner.png" class="bannerninon">
