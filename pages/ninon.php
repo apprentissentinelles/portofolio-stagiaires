@@ -1,1 +1,40 @@
-HelloWorld ! C'est moi, Ninon alias Hufflepuff DragonFly !
+
+	<h1> Cours et Devoirs </h1>
+
+	<h2> Nos projets </h2>
+		<div class=cours><p> Au sein de cette première partie de formation, nous avons déjà accompli une bonne quantité de travail et acquis de nombreuses connaissances. Nous avons étudié :</p>
+			<ul>
+				<li>L'algorithmique </li>
+				<li>JavaScript </li>
+				<li>HTML </li>
+				<li> CSS </li>
+				<li> PHP </li>
+				<li> GIT </li>
+			</ul>
+		</div>
+
+		<div class=presentations><p> J'ai réalisé une présentation présentant les <em>Structures d'un document html</em>. En voici l'index :</p>
+			<ul>
+				<li> I- Présentation du langage HTML </li>
+				<li> II- Les balises 
+					<ul>
+						<li>a) balises courantes de contenu</li>
+						<li>b) balises courantes de structure</li>
+					</ul>
+				</li>
+				<li> III- La structure de la page 
+					<ul>
+						<li>a) le doctype</li>
+						<li>b) la balise head</li>
+						<li>c) le body </li>
+						<li>d) Imbrication, indentation et commentaires </li>
+					</ul>
+				</li>
+			</ul>
+		<p> Concernant les autres stagiaires, Erwan nous a parlé des fonctions en JavaScript, Kevin des Sélecteurs CSS, et Killian de l'outil Flexbox en CSS. </br>
+		Ces présentations nous ont permis de restituer et synthétiser nos connaissances sur le sujet. </p>
+		</div>
+
+	<h2> Ninon <h2>
+		<p> 
+	<h2> Ce que m'apporte Sentinelles Technologies <h2>
