@@ -45,19 +45,19 @@
           <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
             <ul class="nav navbar-nav navbar-right">
               <li class="active">
-                <a class="page-scroll" href="#home">Accueil</a>
+                <a class="page-scroll" href="index.php">Accueil</a>
               </li>
               <li>
-                <a class="page-scroll" href="#about">Erwan</a>
+                <a class="page-scroll" href="pages/erwan.php">Erwan</a>
               </li>
               <li>
-                <a class="page-scroll" href="#services">Kévin</a>
+                <a class="page-scroll" href="pages/kevin.php">Kévin</a>
               </li>
               <li>
-                <a class="page-scroll" href="#portfolio">Killian</a>
+                <a class="page-scroll" href="pages/killian.php">Killian</a>
               </li>
               <li>
-                <a class="page-scroll" href="#blog">Ninon</a>
+                <a class="page-scroll" href="pages/ninon.php">Ninon</a>
               </li>
               <li>
                 <a class="page-scroll" href="#contact">Contact</a>
