@@ -131,8 +131,35 @@
 <hr class="separateurkev"></hr>
 
 
-<titre> <h1> Diaporama </h1> </titre>
+<!-- <titre> <h1> Diaporama </h1> </titre>
 
+  <div id="sliderjs">
+          <i class="go-back"> </i>
+          <i class="go-forward"> </i>
+          <div class="diapositives">
+            <div class="diapositive" style="background-image: url('images/coding-on-laptop_4460x4460.jpg')" >
+              
+              <h1 class="titre1"> Mon titre image 1 </h1>
+              <p class="paragraphe"> C'est bien le titre correspondant à la premiere image </p>
+            
+            </div>
+            <div class="diapositive" style="background-image: url('images/office-team-business-meeting_4460x4460.jpg')">
+              
+                <h1 class="titre1"> Mon titre image 2 </h1>
+                <p class="paragraphe"> C'est bien le titre correspondant à la deuxième image </p>
+            </div>
+            
+            <div class="diapositive" style="background-image: url('images/programmer-focused-on-code_4460x4460.jpg')">
+            
+              
+              <h1 class="titre1"> Mon titre image 3 </h1>
+              <p class="paragraphe"> C'est bien le titre correspondant à la troisième image </p>
+            
+            </div>
+
+          </div>
+        </div>
+-->
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -141,7 +168,7 @@
 
     <!-- JS pour l'application -->
     <script type="text/javascript" src="js/app-piano.js"></script>
-
+    <script type="text/javascript" src="js/app-diapo.js"> </script>
 
 
 </body>
