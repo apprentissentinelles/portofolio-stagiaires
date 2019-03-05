@@ -209,6 +209,28 @@
   padding: 10px 0px;
 }
 
+
+
+/*****************************************
+*            PAGE CSS KILLIAN            *
+*****************************************/
+
+.bannerkillian {
+  display: flex;
+  flex-flow:column wrap;
+  align-content: center;
+  justify-content: center;
+  margin-top: 5px;
+  height: 150px;
+}
+
+.backgroundkillian {
+  background-image: url("../images/killianbanner.png");
+  color : white;
+  margin: 0 -500px;
+  height: 350px;
+}
+
 /*--------------------------------*/
 
 /* Page Kevin
@@ -361,4 +383,5 @@
   color: red;
    font-size: 1.2em;
 }
+
 
