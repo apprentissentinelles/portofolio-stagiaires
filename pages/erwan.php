@@ -1,5 +1,9 @@
+
 <!-- <link href="css/bootstrap.min.css" rel="stylesheet" />
 <link href="../css/style.css" rel="stylesheet">
+=======
+
+>>>>>>> 2e5c7632d28cb108b6ba1e6c3e9160886c94242b
 <!--<body>-->
 <!-- <div class="banner backgroundG">
 	<h1 class="banner">Erwan GOASDOUE</h1>
