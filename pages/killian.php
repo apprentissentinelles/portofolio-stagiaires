@@ -64,7 +64,6 @@
 				<span class="lettre" id="lettre_y">Y</span>
 				<span class="lettre" id="lettre_z">Z</span>
 			</div>
-
 		</div>
 	</div>
 
