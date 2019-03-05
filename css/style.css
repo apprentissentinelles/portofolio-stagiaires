@@ -293,6 +293,19 @@
 /* Page Kevin
 /*--------------------------------*/
 
+.bannerpodeur {
+  display: flex;
+  flex-direction: row wrap;
+  align-content: center;
+  justify-content: center;
+  margin-left: 35%;
+}
+
+.backgroundpodeur {
+   background-color: #050500;
+   margin: 0 -300px;
+   height: 200px;
+}
 
 .body-kevin
 {
@@ -524,6 +537,19 @@
 *            PAGE CSS ERWAN              *
 *****************************************/
 
+.bannererwan {
+  display: flex;
+  flex-direction: row wrap;
+  align-content: center;
+  justify-content: center;
+  margin-left: 35%;
+}
+
+.backgrounderwan {
+   background-color: #050500;
+   margin: 0 -300px;
+   height: 200px;
+}
 
 .banner {
   display: flex;
@@ -616,6 +642,20 @@
 /********************************/
 /*        CSS NINON
 *********************************/
+
+.bannerninon {
+  display: flex;
+  flex-direction: row wrap;
+  align-content: center;
+  justify-content: center;
+  margin-left: 35%;
+}
+
+.backgroundninon {
+   background-color: #050500;
+   margin: 0 -300px;
+   height: 200px;
+}
 
 .nuage {
   width: 933px;
