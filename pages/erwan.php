@@ -1,5 +1,4 @@
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="../css/style.css" rel="stylesheet">
+
 <!--<body>-->
 <div class="banner backgroundG">
 	<h1 class="banner">Erwan GOASDOUE</h1>
