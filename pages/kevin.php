@@ -17,13 +17,19 @@
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
 </head>
 
-<body>
-<h2> Bonjour bienvenue à vous, My name is Kévin </h2>
+<body class="body-kevin">
+	<div class="titre">
+		<h1> Portofolio de Kevin </h1>
+	</div>
+
+
+
 
 </body>
+
 
 
 

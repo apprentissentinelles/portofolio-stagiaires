@@ -24,51 +24,7 @@
 <body data-spy="scroll" data-target="#navbar-example">
 
 	<div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <!-- Navigation -->
-        <nav class="navbar navbar-default">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            <!-- Brand -->
-            <a class="navbar-brand page-scroll sticky-logo" href="index.php">
-              <h1><span>Sentinelles</span>Technologies</h1>
-            </a>
-          </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active">
-                <a class="page-scroll" href="#home">Accueil</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#about">Erwan</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#services">Kévin</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#portfolio">Killian</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#blog">Ninon</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <!-- navbar-collapse -->
-        </nav>
-        <!-- END: Navigation -->
-      </div>
-    </div>
+    
 		<div class="row">
 			<div class="col-lg-12">
 				<h1>Portofolio Stagiaire</h1>
@@ -77,6 +33,34 @@
 		</div>
 	</div>
 
+<!-- // if(!isset($_GET["page"])){
+  $_GET["page"] = "accueil";
+ }
+?>
+
+
+<?php include("menu.php"); ?>
+  <h1><?php echo ucfirst($_GET["page"]); ?> </h1> 
+  
+  <?php 
+  switch($_GET['page']) {
+    case "accueil":
+      include('accueil.php');
+      break;
+    case "portofolio":
+      include ('portofolio.php');
+      break;
+    case "contact":
+      include('contact.php');
+      break;
+    case "contact":
+      include('contact.php');
+      break;
+    }
+  ?>// -->
+
+</body>
+</html>
 	<!-- JavaScript Libraries -->
 	<script src="lib/jquery/jquery.min.js"></script>
 	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
