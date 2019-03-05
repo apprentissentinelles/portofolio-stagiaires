@@ -25,7 +25,7 @@
 				</div>
 			</div>
 		</header>
-		<div class="row container1">
+		<div class="row containerpendu">
 			<div class="col-lg-9">
 				<div class="row">
 					<div class="col-lg-6" style="background-color: #A9A9A9; height: 100px">
