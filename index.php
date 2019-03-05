@@ -70,7 +70,7 @@
       </div>
     </div>
 
-  <h1><?php echo ucfirst($_GET["page"]); ?> </h1> 
+<!--   <h1><?php echo ucfirst($_GET["page"]); ?></h1> -->
 
 <?php if(!isset($_GET["page"])){
   $_GET["page"] = "accueil";
