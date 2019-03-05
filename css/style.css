@@ -209,8 +209,6 @@
   padding: 10px 0px;
 }
 
-
-
 /*****************************************
 *            PAGE CSS KILLIAN            *
 *****************************************/
@@ -252,4 +250,21 @@
   text-align: center;
 }
 
+/*****************************************
+*            PAGE CSS ERWAN              *
+*****************************************/
 
+.banner {
+  display: flex;
+  flex-flow:row wrap;
+  align-content: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.backgroundG {
+  background-image: url("../images/backgrounderwan.jpg");
+  color : white;
+  margin: -15px -15px;
+  padding-bottom: 150px;
+}
