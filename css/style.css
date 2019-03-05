@@ -253,3 +253,41 @@
 }
 
 
+/********************************/
+/*        CSS NINON
+*********************************/
+
+.nuage {
+  width: 933px;
+  height: 610px;
+  justify-content: left;
+  }
+
+.titresninon {
+  font-size: 18px;
+  font-style: ;
+  font-family: Georgia, "Arial Black", Arial, Verdana, sans-serif;
+
+}
+
+.listesninon {
+  list-style-type: none; 
+}
+
+.grostitreninon {
+  background-image: url("../images/bokehninon.jpg");
+  height: 150px;
+  padding-top: 70px; 
+  text-align: center;
+  font-family: Trebuchet, Georgia, "Arial Black", Arial, Verdana, sans-serif;
+  color: #EFECCA;
+  text-shadow: 1px 1px 1px grey;
+  font-size: 22px;
+
+}
+
+.grostitreninon .nomninon {
+  font-size:18px;
+  font-style: italic;
+  color: #89725B;
+}
