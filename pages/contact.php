@@ -1,7 +1,7 @@
 <link href="css/styles.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
+<img class="contactphoto" src="images/pics3.jpg">
 <div class="containercontact">
   <div class="rowcontact">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        

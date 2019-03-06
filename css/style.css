@@ -657,11 +657,7 @@
 }
 
 
-.ninonpres {
-  width: 480px;
-  height: 319px;
-  justify-content: left;
-}
+.
 
 .quijesuis {
   justify-content: center;
@@ -681,7 +677,6 @@
 *            PAGE CSS CONTACT            *
 *****************************************/
 
-<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 
 
@@ -793,8 +788,6 @@ fieldset {
 
 /* CONTACT */ 
 
-=======
->>>>>>> c03d8230d6266d5d05e3088c754f5d953ffc7cb7
 textarea {
 	resize: none;
 }
@@ -840,4 +833,30 @@ textarea {
 .btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
 	border-color: #5e9bfc;
 	color: #5e9bfc;
+}
+
+/*********************************************
+           CSS PHOTOS DU SITE
+
+*********************************************/
+
+.headerphoto {
+  width : 1024px;
+  height: 523px;
+  position: relative;
+}
+
+.lecentre1 {
+  width: 682px;
+  height: 374px;
+}
+
+.contactphoto {
+  width: 682px;
+  height: 455px;
+}
+
+.lecentre2 {
+  width: 682px;
+  height: 454px;
 }

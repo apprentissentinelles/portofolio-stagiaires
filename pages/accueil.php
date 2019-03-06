@@ -1,10 +1,6 @@
-<div class="row">
-			<div class="col-lg-12">
-				<h1>Portofolio Stagiaire</h1>
-				<p>Erwan, Kévin, Killian & Ninon</p>
-			</div>
-		</div>
-	</div>
+
+
+<img class="headerphoto" src="images/pics1.jpg">
 
 	<h2>Bienvenue sur le site créé par les stagiaires de Sentinelles-Technologies </h2>
 
@@ -21,6 +17,9 @@
 	</ul>
 
 	<p>Le centre de formation :</p>
+	<img class="lecentre1" src="images/pics5.jpg">
+	<img class="lecentre2" src="images/pics8.jpg">
+
 
 
 

@@ -48,9 +48,6 @@
 	<div class="quijesuis">
 		<h2 class="titresninon">  Qui je suis : </h2>
 		<div>
-			<img class="ninonpres" src="images/ninonpres.jpg"/>
-		</div>
-		<div>
 			<img class="nuage" src="images/nuageninon.png" />
 		</div>
 	</div>
