@@ -550,6 +550,10 @@
   height: 250px;
 }
 
+.texterwan {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22px;
+}
 
 .separateurkev{
   border:5px double red;
@@ -562,7 +566,19 @@
 
 .containerRgb {
   background-color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 
+.content {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.encranrgb {
+  width: 100px;
+  height: 40px;
+  border: solid black inset !important;
 }
 
 #carre_colore {
@@ -571,9 +587,9 @@
   border: 5px solid transparent;
   border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
   border-image-slice: 1;
-  height: 100px;
+  height: 200px;
   margin-top: : 15px auto;
-  width: 100px;
+  width: 250px;
 
 }
 
@@ -613,10 +629,6 @@
 .soustitre {
 
   color: darkgreen;
-}
-
-.carrehex {
-  
 }
 
 /*****************************************
@@ -680,7 +692,7 @@
 *            PAGE CSS CONTACT            *
 *****************************************/
 
-<<<<<<< HEAD
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 
 

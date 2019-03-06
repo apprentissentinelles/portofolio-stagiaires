@@ -1,4 +1,5 @@
 
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 <!--<body>-->
 <!-- <div class="banner backgroundG">
 	<h1 class="banner">Erwan GOASDOUE</h1>
@@ -7,19 +8,26 @@
 <div class="backgrounderwan">
 	<img src="images/erwanbanner.png" class="bannererwan">
 </div>
-<section>
+<section class="texterwan">
 	<div>
 		<ul><h3>Projet "RGB2HEX" :</h3>
-			<p>Réalisation d'un convertisseur RGB to Hexadecimal, TP n°1 cours Développement Web.</p>
+			<p>Réalisation d'un convertisseur RGB to Hexadecimal, TP n°1 cours Développement Web/JavaScript.</p>
 
 			<ul><h4>Langages utilisés :</h4>
 				<li>HTML : structuration de la page web.</li>
-				<li>JavaScript : innitialisation du jeu, et traitement des différentes fonctions utilisées dans le bon déroulement du jeu.</li>
-				<li>CSS : simple mise en forme de la disposition des lettres de l'alpahbet, et alignement de chaque élément.</li>
+				<li>JavaScript : dynamisation de la page web.</li>
+				<li>CSS : simple mise en forme des différents éléments.</li>
 			</ul>
 			<ul>
-				
+			
+			<ul><h4>Utilisation de JavaScript :</h4>
+				<li>Initialisation du programme grâce à une <span>function initialisation</span>, regroupant toutes les autres fonctions.</li>
+				<li>Traitement des valeurs RGB : en temps réel selon les modifications apportées à l'aide des boutons "range" (jauge).</li>
+			</ul>
+
 			</ul><h4>Compétences acquises :</h4>
+				<li>Événements JavaScript : gestion des événements "onclick", "onchange", "oninput" et "onblur".</li>
+				<li>Fonctions JavaScript : manipulation des fonctions JS (déclaration, appel et utilisation).</li>
 
 		</ul>
 	</div>
@@ -41,8 +49,8 @@
 				</div>
 			</div>
 		</header>
-		<div class="row containerRgb">
-			<div class="col-lg-6">
+		<div class="row content">
+			<div class="col-lg-3">
 				<div class="row" id="rgb">
 					<div class="col-lg-2">
 						<label for="" class="r">Red</label>
@@ -62,6 +70,12 @@
 					</div>
 					<br>
 					<br>
+
+					<div class="ecranrgb">
+						<div id="r">Lol</div>
+						<div id="g">LOL</div>
+						<div id="b">lOl</div>
+					</div>
 				</div>
 			</div>
 			<div class="col-lg-3">
@@ -76,7 +90,7 @@
 <div class="quijesuis">
 	<h2 class="titreserwan">  Qui suis-je ? </h2>
 	<div>
-		<img class="ninonpres" src=""/>
+		<!--<img class="ninonpres" src=""/>-->
 	</div>
 	<div>
 		<img class="nuage" src="images/nuageerwan.jpg" />
