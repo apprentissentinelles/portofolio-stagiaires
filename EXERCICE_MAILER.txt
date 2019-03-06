@@ -29,3 +29,19 @@ code PHP de la réponse :
 http_response_code(400);
 echo "Oops! Il y a un problème avec l'un des champs. Essayez encore !";
 exit;
+
+III. Envoi de l'email
+6. Déclarer une variable $to puis affecter lui l'adresse email sur laquelle
+vous souhaitez rediriger les messages envoyés via le formulaire.
+
+7. Déclarer une variable $sujet puis initialiser la avec le texte "Nouveau message de $name ".
+Contaténer ensuite le contenu du champ subject en prenant soin de le sécuriser comme le champ name en partie I.
+
+8. Ajouter le code suivant (lequel sera commenté avec le formateur).
+$email_content = "Name: $name\n";
+$email_content .= "Email: $email\n\n";
+// $email_content .= "Subject: $cont_subject\n";
+$email_content .= "Message:\n$message\n";
+
+// Build the email headers.
+$email_headers = "From: $name <$email>";
