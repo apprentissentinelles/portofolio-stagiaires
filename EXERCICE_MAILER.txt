@@ -17,3 +17,15 @@ Vous stockerez le résultat dans une variable $name.
 
 4. a) Appliquer la fonction trim pour traiter le champ email.
 Vous stockerez le résultat dans une variable $email.
+4. b) Appliquer la fonction filter_var avec le paramètre FILTER_SANITIZE_EMAIL pour prévenir
+les attaques au niveau de l'adresse email.
+4. c) Appliquer la fonction trim pour traiter le champ message
+
+5. En utilisant les fonctions php empty et filter_var envoyer la réponse suivante si :
+* le champ name est vide OU
+* le message est vide OU
+* le résultat filter_var appliqué au champ email avec le parametre FILTER_VALIDATE_EMAIL renvoie false
+code PHP de la réponse :
+http_response_code(400);
+echo "Oops! Il y a un problème avec l'un des champs. Essayez encore !";
+exit;
