@@ -1,6 +1,8 @@
+	<!-- Bannière entête -->
 	<div class="backgroundkillian">
-	<img src="images/killianbanner.png" class="bannerkillian">
+		<img src="images/killianbanner.png" class="bannerkillian">
 	</div>
+	<!-- Container pendu -->
 	<div class="container">
 		<header class="row entetependu">
 			<div class="col-lg-12"> 
@@ -8,30 +10,31 @@
 					Le Pendu - Sentinelles Tech - DWWM
 				</h1>
 				<p>
-					Voici un jeu du pendu fait par les  &eacute;quipes de Sentinelles Technologies.
+					Voici un jeu du pendu fait par les  équipes de Sentinelles Technologies.
 				</p>
 				<div>
-					<input type="button" value="Come get some !" name="jouer" id="bouton_jouer">
+					<input type="button" value="Cliquez pour jouer au pendu !" name="jouer" id="bouton_jouer">
 				</div>
 			</div>
 		</header>
+		<br>
 		<div class="row containerpendu">
 			<div class="col-lg-9">
 				<div class="row">
-					<div class="col-lg-6" style="background-color: #A9A9A9; height: 100px">
+
+					<div class="col-lg-6" style="background-color: #FFF; height: 100px">
 						<!-- Le mot à deviner -->
 						<div id="mot_cache"></div>
 
 					</div>
-					<div class="col-lg-3" style="background-color: #A9A9A9; height: 100px">
-						<!-- La progression -->
+				<!-- 	<div class="col-lg-3" style="background-color: #FFF; height: 100px">
+						La progression
 						<div class="progress">
 							<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>
-
-					</div>
-					<div class="col-lg-3" style="background-color: #A9A9A9; height: 100px">
-						<!-- Le nombre d'essaie -->
+					</div> -->
+					<div class="col-lg-4 essaisPendu" style="background-color: #FFF; height: 100px">
+						<!-- Le nombre d'essais -->	
 						<div id="nb_essais">0</div>
 					</div>
 				</div>
@@ -67,5 +70,8 @@
 		</div>
 	</div>
 
+	<div class="col-lg-12">
+		<img class="nuagekillian" src="images/nuagekillian.png" alt="">
+	</div>
 
- 
+	

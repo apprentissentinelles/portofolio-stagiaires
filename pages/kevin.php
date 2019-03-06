@@ -40,7 +40,7 @@
       </div>
     </header>
     
-    <div class="row container1">
+    <div class="row containerpodeur">
       <!-- Boite Ã  outil -->
       <div class="col-lg-8">
         <div id="tool-box">

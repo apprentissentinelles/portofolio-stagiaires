@@ -3,6 +3,13 @@
 
 /*  2. Header top Area
 /*--------------------------------*/
+.container {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
 
 .header-area {
   position: absolute;
@@ -213,19 +220,26 @@
 *            PAGE CSS KILLIAN            *
 *****************************************/
 
+
+ /*             Bannière                */             
+
 .bannerkillian {
   display: flex;
-  flex-direction: row wrap;
   align-content: center;
   justify-content: center;
-  margin-left: 35%;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
 }
 
 .backgroundkillian {
    background-color: #050500;
-   margin: 0 -300px;
    height: 200px;
+   width: 100%;
 }
+
+
+/*            Jeu du pendu              */      
 
 .entetependu {
   text-align: center;
@@ -233,7 +247,16 @@
 }
 
 .containerpendu {
-  background-color: #A9A9A9;
+  background-color: #FFF;
+  height: 400px;
+  display: flex;
+}
+
+.essaisPendu{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 5px auto;
 }
 
 .lettre {
@@ -242,7 +265,7 @@
   width: 36px;
   height: 36px;
   font-size: 1em;
-  margin: 3px;
+  margin: 3px auto;
   text-align: center;
   padding-top: 7px;
   cursor: pointer;
@@ -270,43 +293,69 @@
   font-size: 5em;
   width: 100%;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 #nb_essais {
-  border: 2px solid #000;
   font-size: 3em;
-  width: 100px;
-  height: 100px;
+  color: #fff;
+  width: 200px;
+  height: 200px;
   text-align: center;
-  margin: 60px auto;
-  padding-top: 16px;
-  background-color: #fff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
+  background-color: #302244;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
 }
 
-.progress {
-  margin-top: 100px;
+#bouton_jouer {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
-/*--------------------------------*/
+.nuagekillian {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+}
 
-/* Page Kevin
-/*--------------------------------*/
+
+
+/*****************************************
+*            PAGE CSS KEVIN              *
+*****************************************/
 
 @import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
 
 .bannerpodeur {
   display: flex;
-  flex-direction: row wrap;
   align-content: center;
   justify-content: center;
-  margin-left: 35%;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
 }
 
 .backgroundpodeur {
    background-color: #050500;
-   margin: 0 -300px;
    height: 200px;
+   width: 100%;
 }
 
 .body-kevin
@@ -338,7 +387,7 @@
   margin: 18px auto;
 }
 
-.container1 {
+.containerpodeur {
  background:
   linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
   linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
@@ -465,23 +514,24 @@
    font-size: 1.2em;
 }
 
-
 /*****************************************
 *            PAGE CSS ERWAN              *
 *****************************************/
 
 .bannererwan {
   display: flex;
-  flex-direction: row wrap;
   align-content: center;
   justify-content: center;
-  margin-left: 35%;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
 }
 
 .backgrounderwan {
    background-color: #050500;
-   margin: 0 -300px;
    height: 200px;
+   width: 100%;
+   padding-left: 35%;
 }
 
 .banner {
@@ -504,101 +554,95 @@
 
 .separateurkev{
   border:5px double red;
+}
 
-.entete {
+.enteteRgb {
   text-align: center;
   margin: 18px auto;
 }
 
-.containerr1 {
-  background-color: #eee;
-}
-
-.lettre {
-  display: inline-block;
-  width: 36px;
-  height: 36px;
-  font-size: 1em;
-  margin: 3px;
-  text-align: center;
-  padding-top: 9px;
-  cursor: pointer;
-}
-
-.lettre:nth-child(odd) {
-  background-color: white;
-}
-
-.lettre:nth-child(even) {
-  background-color: #ccc;
-}
-
-.ok {
-  background-color: #039111 !important;
-  color: #fff;
-}
-
-.ko {
-  background-color: #973132 !important;
-  color: #fff;
-}
-
-#mot_cache {
-  font-size: 5em;
-  width: 100%;
-  text-align: center;
-}
-
-#nb_essais {
-  border: 7px solid #000;
-  font-size: 3em;
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  margin: 0px auto;
-  padding-top: 16px;
-  background-color: #fff;
-}
-
-.progress {
-  margin-top: 39px;
+.containerRgb {
+  background-color: #ffffff;
 }
 
 #carre_colore {
-  width: 100px;
+
+  background-color: #302244;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
   height: 100px;
-  border: 5px solid black;
-  border-style: outset;
+  margin-top: : 15px auto;
+  width: 100px;
+
 }
 
+#rgb {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column wrap;
+}
 
-/********************************/
-/*        CSS NINON
-*********************************/
+.r {
+  border-color: red;
+  color: red;
+}
+
+.g {
+  border-color: green;
+  color: green;
+}
+
+.b {
+  border-color: blue;
+  color: blue;
+}
+
+#hex {
+  border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+}
+
+.titrepage {
+
+  color: darkblue;
+}
+
+.soustitre {
+
+  color: darkgreen;
+}
+
+/*****************************************
+*            PAGE CSS NINON              *
+*****************************************/
 
 .bannerninon {
   display: flex;
-  flex-direction: row wrap;
   align-content: center;
   justify-content: center;
-  margin-left: 35%;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
 }
 
 .backgroundninon {
    background-color: #050500;
-   margin: 0 -300px;
    height: 200px;
+   width: 100%;
 }
 
 .nuage {
-  width: 933px;
-  height: 610px;
-  justify-content: left;
+  width: 480px;
+  height: 319px;
   }
 
 .titresninon {
   font-size: 18px;
-  font-style: ;
+  font-style: italic;
+  text-decoration: underline;
   font-family: Georgia, "Arial Black", Arial, Verdana, sans-serif;
 
 }
@@ -607,25 +651,26 @@
   list-style-type: none; 
 }
 
-.grostitreninon {
-  background-image: url("../images/bokehninon.jpg");
-  height: 150px;
-  padding-top: 70px; 
-  text-align: center;
-  font-family: Trebuchet, Georgia, "Arial Black", Arial, Verdana, sans-serif;
-  color: #EFECCA;
-  text-shadow: 1px 1px 1px grey;
-  font-size: 22px;
 
+.ninonpres {
+  width: 480px;
+  height: 319px;
+  justify-content: left;
 }
 
+.quijesuis {
+  justify-content: center;
+  align-items: center;
+  width: 480px; 
+  margin: 12px auto; 
+  text-align:center
+}
 .grostitreninon .nomninon {
   font-size:18px;
   font-style: italic;
   color: #89725B;
 
 }
-
 
 /* Contact */ 
 
