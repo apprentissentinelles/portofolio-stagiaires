@@ -1,6 +1,6 @@
 var dictionnaire = [
-	"Bonjour",
-	"Aurevoir",
+	"BONJOUR",
+	"AUREVOIR",
 	"TITANESQUE",
     "ANABELLE",
     "POMPIER",
@@ -13,8 +13,7 @@ var dictionnaire = [
     "MARGUERITE",
     "ELEPHANT",
     "IGLOO",
-    "NAVIRE",
-	
+    "NAVIRE",	
 ];
 
 var mot_a_deviner="";
@@ -72,8 +71,6 @@ function jouer() {
 	// Initialiser le nombre d'erreur possible
 	nb_essais = 10;
 	document.querySelector("#nb_essais").innerHTML = nb_essais;
-
-
 }
 
 /*
@@ -145,7 +142,6 @@ function masquer_caracteres(mot_a_deviner){
 			default:
 				resultat += "" + mot_a_deviner.charAt(i) + "";
 				break;
-
 		}
 	}
 	return resultat;

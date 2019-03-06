@@ -41,7 +41,7 @@
 				</div>
 			</div>
 		</header>
-		<div class="row container1">
+		<div class="row containerRgb">
 			<div class="col-lg-6">
 				<div class="row" id="rgb">
 					<div class="col-lg-2">
