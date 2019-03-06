@@ -1,0 +1,19 @@
+// TODO
+
+I. Initiation du traitement
+1. Creer un fichier vide que vous nommerez 
+mailer.php (à la racine, au même niveau que index.php)
+
+2. Ecrire une garde qui vérfie que la valeur de $_SERVER['REQUEST_METHOD'] est bien POST
+
+
+II. Sécurité
+Pour sécuriser le formulaire vous utiliserez les fonctions php trim et strip_tags
+
+3. a) Appliquer la fonction trim puis strip_tags pour traiter le champ name. 
+Vous stockerez le résultat dans une variable $name.
+3. b) Appliquer str_replace pour remplacer les retours chariot (\r) et les retours à la ligne
+(\n) par le caractère blanc.
+
+4. a) Appliquer la fonction trim pour traiter le champ email.
+Vous stockerez le résultat dans une variable $email.
