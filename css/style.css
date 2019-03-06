@@ -374,6 +374,8 @@
   font-family: 'Cherry Swash';
 }
 
+<<<<<<< HEAD
+=======
 .login
 .pass{
   display: flex;
@@ -382,6 +384,7 @@
 
 }
 
+>>>>>>> e4ccb6bf1f516add036954a1a1fda86ddac0d14c
 .entete {
   text-align: center;
   margin: 18px auto;
@@ -463,7 +466,6 @@
   flex-grow: 1;
   cursor: pointer;
   border-radius: 10px;
-
 }
 
 .jouee{
@@ -514,6 +516,7 @@
    font-size: 1.2em;
 }
 
+
 /*****************************************
 *            PAGE CSS ERWAN              *
 *****************************************/
@@ -563,6 +566,7 @@
 
 .containerRgb {
   background-color: #ffffff;
+
 }
 
 #carre_colore {
@@ -613,6 +617,10 @@
 .soustitre {
 
   color: darkgreen;
+}
+
+.carrehex {
+  
 }
 
 /*****************************************
