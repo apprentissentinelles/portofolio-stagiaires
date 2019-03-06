@@ -74,4 +74,3 @@
 		<img class="nuagekillian" src="images/nuagekillian.png" alt="">
 	</div>
 
-	

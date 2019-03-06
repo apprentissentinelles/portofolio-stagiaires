@@ -371,8 +371,6 @@
   text-align: center;
 }
 
-
-
 .entete {
   text-align: center;
   margin: 18px auto;
@@ -454,7 +452,6 @@
   flex-grow: 1;
   cursor: pointer;
   border-radius: 10px;
-
 }
 
 .jouee{
@@ -504,6 +501,7 @@
   color: red;
    font-size: 1.2em;
 }
+
 /* Diaporama --> */
 /*#sliderjs{
   width: 100%;
@@ -580,8 +578,8 @@
   position: relative;
   align-items: center;
   left:0px;
-  text-shadow: 2px 2px 5px red;*/
-}
+  text-shadow: 2px 2px 5px red;
+}*/
 
 
 /*****************************************
