@@ -374,8 +374,6 @@
   font-family: 'Cherry Swash';
 }
 
-<<<<<<< HEAD
-=======
 .login
 .pass{
   display: flex;
@@ -384,7 +382,6 @@
 
 }
 
->>>>>>> e4ccb6bf1f516add036954a1a1fda86ddac0d14c
 .entete {
   text-align: center;
   margin: 18px auto;
@@ -680,7 +677,9 @@
 
 }
 
-/* Contact */ 
+/*****************************************
+*            PAGE CSS CONTACT            *
+*****************************************/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 
@@ -778,16 +777,16 @@ fieldset {
   outline:0;
   border:1px solid #999;
 }
-::-webkit-input-placeholder {
+-webkit-input-placeholder {
  color:#888;
 }
-:-moz-placeholder {
+-moz-placeholder {
  color:#888;
 }
-::-moz-placeholder {
+-moz-placeholder {
  color:#888;
 }
-:-ms-input-placeholder {
+-ms-input-placeholder {
  color:#888;
 }
 
