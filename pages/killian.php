@@ -73,4 +73,3 @@
 	<div class="col-lg-12">
 		<img class="nuagekillian" src="images/nuagekillian.png" alt="">
 	</div>
-
