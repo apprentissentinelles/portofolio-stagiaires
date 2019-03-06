@@ -1,9 +1,4 @@
 
-<!-- <link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="../css/style.css" rel="stylesheet">
-=======
-
->>>>>>> 2e5c7632d28cb108b6ba1e6c3e9160886c94242b
 <!--<body>-->
 <!-- <div class="banner backgroundG">
 	<h1 class="banner">Erwan GOASDOUE</h1>
@@ -31,7 +26,53 @@
 </section>
 
 <section>
-	<div class="containerr">
+	<div class="containerRgb">
+		<header class="row enteteRgb">
+			<div class="col-lg-12"> 
+				<h1 class="titrepage">
+					RGB 2 HEX - Sentinelles Tech - DWWM
+				</h1>
+				<p class="soustitre">
+					Voici un convertisseur RGB - Hexadécimal fait par les &eacute;quipes de Sentinelles Technologies.
+				</p>
+				<div>
+					<input type="button" value="Rgb 2 Hex" name="rgb2hex" id="rgb2hex" hidden="" />
+					<input type="button" value="Hex 2 Rgb" name="hex2rgb" id="hex2rgb" hidden="" />
+				</div>
+			</div>
+		</header>
+		<div class="row container1">
+			<div class="col-lg-6">
+				<div class="row" id="rgb">
+					<div class="col-lg-2">
+						<label for="" class="r">Red</label>
+						<input type="range" name="r" id="r" value="" style="width: 100px" max="255" min="0"/>
+					</div>
+					<br>
+					<br>
+					<div class="col-lg-2">
+						<label for="" class="g">Green</label>
+						<input type="range" name="g" id="g" value="" style="width: 100px" max="255" min="0"/>
+					</div>	
+					<br>
+					<br>
+					<div class="col-lg-2">
+						<label for="" class="b">Blue</label>
+						<input type="range" name="b" id="b" value="" style="width: 100px" max="255" min="0"/>
+					</div>
+					<br>
+					<br>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div id="carre_colore"></div>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" id="hex" value="ffffff" maxlength="6"/>
+			</div>	
+		</div>
+	</div>
+	<!-- <div class="containerr">
 		<header class="row entete">
 			<div class="col-lg-12"> 
 				<h1 class="titrepage">
@@ -67,7 +108,31 @@
 				<input type="text" id="hex" value="ffffff"/>
 			</div>
 		</div>
-	</div>
+	</div> -->
+
+<!--		Trigger the modal with a button
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+	Modal
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    	Modal content
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>-->
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
