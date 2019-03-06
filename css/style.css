@@ -577,14 +577,14 @@
 }
 
 .nuage {
-  width: 933px;
-  height: 610px;
-  justify-content: left;
+  width: 480px;
+  height: 319px;
   }
 
 .titresninon {
   font-size: 18px;
-  font-style: ;
+  font-style: italic;
+  text-decoration: underline;
   font-family: Georgia, "Arial Black", Arial, Verdana, sans-serif;
 
 }
@@ -593,20 +593,17 @@
   list-style-type: none; 
 }
 
-.grostitreninon {
-  background-image: url("../images/bokehninon.jpg");
-  height: 150px;
-  padding-top: 70px; 
-  text-align: center;
-  font-family: Trebuchet, Georgia, "Arial Black", Arial, Verdana, sans-serif;
-  color: #EFECCA;
-  text-shadow: 1px 1px 1px grey;
-  font-size: 22px;
 
+.ninonpres {
+  width: 480px;
+  height: 319px;
+  justify-content: left;
 }
 
-.grostitreninon .nomninon {
-  font-size:18px;
-  font-style: italic;
-  color: #89725B;
+.quijesuis {
+  justify-content: center;
+  align-items: center;
+  width: 480px; 
+  margin: 12px auto; 
+  text-align:center
 }
