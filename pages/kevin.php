@@ -25,14 +25,14 @@
   <img src="images/podeurbanner.png" class="bannerpodeur">
   </div>
 	<div class="titre">
-		<h1> Portofolio de Kevin </h1>
+		<h1> <a href="http://www.auplod.com/i-auodplb46a5.html"><img src="http://www.auplod.com/u/auodplb46a5.png" alt="Image" border="0" /></a> </h1>
 	</div>
   <hr class="separateurkev"></hr>
 <div class="container">
     <header>
       <div class="col-lg-12"> 
         <h1 class="titrepage">
-          MusikWeb - DWWM
+        <a href="http://www.auplod.com/i-aldoupb46a4.html"><img src="http://www.auplod.com/u/aldoupb46a4.png" alt="Image" border="0" /></a>
         </h1>
         <p>
           Voici l'application MusikWeb réalisée par de Sentinelles Technologies.
@@ -79,7 +79,7 @@
           <label for="login">Login</label><input type="text" name="login" />
         </div>
         <div>
-          <label for="pass">Password</label><input type="text" name="pass" />
+          <label for="pass">Password</label><input type="text" name="" ="pass" />
         </div>
         <div>
           <input type="submit" value="Se connecter" />
@@ -134,35 +134,8 @@
 <hr class="separateurkev"></hr>
 
 
-<!-- <titre> <h1> Diaporama </h1> </titre>
 
-  <div id="sliderjs">
-          <i class="go-back"> </i>
-          <i class="go-forward"> </i>
-          <div class="diapositives">
-            <div class="diapositive" style="background-image: url('images/coding-on-laptop_4460x4460.jpg')" >
-              
-              <h1 class="titre1"> Mon titre image 1 </h1>
-              <p class="paragraphe"> C'est bien le titre correspondant à la premiere image </p>
-            
-            </div>
-            <div class="diapositive" style="background-image: url('images/office-team-business-meeting_4460x4460.jpg')">
-              
-                <h1 class="titre1"> Mon titre image 2 </h1>
-                <p class="paragraphe"> C'est bien le titre correspondant à la deuxième image </p>
-            </div>
-            
-            <div class="diapositive" style="background-image: url('images/programmer-focused-on-code_4460x4460.jpg')">
-            
-              
-              <h1 class="titre1"> Mon titre image 3 </h1>
-              <p class="paragraphe"> C'est bien le titre correspondant à la troisième image </p>
-            
-            </div>
 
-          </div>
-        </div>
--->
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

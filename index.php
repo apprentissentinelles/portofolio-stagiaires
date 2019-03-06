@@ -38,7 +38,7 @@
               </button>
             <!-- Brand -->
             <a class="navbar-brand page-scroll sticky-logo" href="index.php">
-              <h1><span>Sentinelles</span>Technologies</h1>
+              <h1><span>&nbsp Sentinelles</span>Technologies</h1>
             </a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
