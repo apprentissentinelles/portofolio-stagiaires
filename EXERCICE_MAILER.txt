@@ -45,3 +45,17 @@ $email_content .= "Message:\n$message\n";
 
 // Build the email headers.
 $email_headers = "From: $name <$email>";
+
+9. a) En utilisant la fonction php mail, envoyer le mail du contact en utilisant :
+* $to comme 1er paramètre
+* $sujet comme 2eme paramètre
+* $email_content comme 3eme paramètre et 
+* $email_headers comme 4eme paramètre
+
+9. b) Si l'envoyer s'est bien passé, renvoyer une réponse au statut 200 et afficher le message
+"Merci ! Votre message a bien été envoyé !"
+
+9. c) Sinon envoyer une réponse au statut 500 et afficher
+"Oops une erreur s'est produite sur le serveur, veuillez rééssayer plus tard !"
+
+
