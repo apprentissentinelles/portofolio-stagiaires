@@ -3,9 +3,6 @@
 
 /*  2. Header top Area
 /*--------------------------------*/
-.container {
-  width: 100%;
-}
 
 .container {
   width: 100%;
@@ -518,7 +515,7 @@
 *            PAGE CSS ERWAN              *
 *****************************************/
 
-.bannererwan {
+/*.bannererwan {
   display: flex;
   align-content: center;
   justify-content: center;
@@ -548,8 +545,22 @@
   padding-bottom: 100px;
   width: 100%;
   height: 250px;
+}*/
+
+.bannererwan {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
 }
 
+.backgrounderwan {
+   background-color: #050500;
+   height: 200px;
+   width: 100%;
+}
 
 .separateurkev{
   border:5px double red;
@@ -680,11 +691,7 @@
 *            PAGE CSS CONTACT            *
 *****************************************/
 
-<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
-
-
-
 
 .containercontact {
   max-width:400px;
@@ -792,8 +799,6 @@ fieldset {
 
 /* CONTACT */ 
 
-=======
->>>>>>> c03d8230d6266d5d05e3088c754f5d953ffc7cb7
 textarea {
 	resize: none;
 }
